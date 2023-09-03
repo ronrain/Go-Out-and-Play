@@ -1,7 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 
-
-
+import { adventEls } from "./adventure.js"
+console.log(adventEls)
 /*-------------------------------- Variables --------------------------------*/
 
 let currentIndex = 0
@@ -13,7 +13,6 @@ const buttonElOne = document.querySelector(".btn-1")
 const buttonElTwo = document.querySelector(".btn-2")
 const buttonElThree = document.querySelector(".btn-3")
 
-console.log(buttonElOne)
 
 /*----------------------------- Event Listeners -----------------------------*/
 
@@ -61,3 +60,4 @@ function render(){
   buttonElThree.id = adventEls[currentIndex].optionThreeResult || 'null'
   messageEl.textContent = adventEls[currentIndex].optionText
 }
+console.log(init)
