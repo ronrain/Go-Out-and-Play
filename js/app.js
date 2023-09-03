@@ -17,6 +17,8 @@ console.log(buttonElOne)
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-
+buttonElOne.addEventListener('click',handleClick)
+buttonElTwo.addEventListener('click',handleClick)
+buttonElThree.addEventListener('click',handleClick)
 
 /*-------------------------------- Functions --------------------------------*/
