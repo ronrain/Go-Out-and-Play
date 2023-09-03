@@ -1,7 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 
 import { adventEls } from "./adventure.js"
-console.log(adventEls)
+
 /*-------------------------------- Variables --------------------------------*/
 
 let currentIndex = 0
@@ -23,11 +23,12 @@ optionElThree.addEventListener('click',handleClick)
 /*-------------------------------- Functions --------------------------------*/
 
 init()
+render()
 
 function init(){
 currentIndex = 0
 optionElOne.textContent =(adventEls[currentIndex].optionOne)
-ooptionElTwo.textContent=(adventEls[currentIndex].optionTwo)
+optionElTwo.textContent=(adventEls[currentIndex].optionTwo)
 optionElThree.textContent=(adventEls[currentIndex].optionThree)
   messageEl.textContent = (adventEls[currentIndex].optionText)
   optionElOne.id = 1 
@@ -60,4 +61,3 @@ function render(){
   optionElThree.id = adventEls[currentIndex].optionThreeResult || 'null'
   messageEl.textContent = adventEls[currentIndex].optionText
 }
-console.log(init)
