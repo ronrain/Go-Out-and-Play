@@ -4,7 +4,7 @@
 
 /*-------------------------------- Variables --------------------------------*/
 
-
+let currentIndex = 0
 
 /*------------------------ Cached Element References ------------------------*/
 
@@ -22,3 +22,19 @@ buttonElTwo.addEventListener('click',handleClick)
 buttonElThree.addEventListener('click',handleClick)
 
 /*-------------------------------- Functions --------------------------------*/
+
+function handleClick(evt){
+  currentIndex = evt.target.id 
+  const currentElement = adventEls[currentIndex]
+  if (currentElement.optionOneResult !== null || currentElement.optionTwoResult !== null || currentElement.optionThreeResult !== null) {
+    buttonElOne.style.display = 'inline'
+    buttonElTwo.style.display = 'inline'
+    buttonElThree.style.display = 'inline'
+  } else {
+    //hide buttons if there are no more options
+    buttonElOne.style.display = 'none';
+    buttonElTwo.style.display = 'none';
+    buttonElThree.style.display = 'none';
+  }
+  render();
+}
