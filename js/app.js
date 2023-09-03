@@ -23,6 +23,19 @@ buttonElThree.addEventListener('click',handleClick)
 
 /*-------------------------------- Functions --------------------------------*/
 
+init()
+
+function init(){
+currentIndex = 0
+  buttonElOne.textContent =(adventEls[currentIndex].optionOne)
+  buttonElTwo.textContent=(adventEls[currentIndex].optionTwo)
+  buttonElThree.textContent=(adventEls[currentIndex].optionThree)
+  messageEl.textContent = (adventEls[currentIndex].optionText)
+  buttonElOne.id = 1 
+  buttonElTwo.id = 2
+  buttonElThree.id = 3
+}
+
 function handleClick(evt){
   currentIndex = evt.target.id 
   const currentElement = adventEls[currentIndex]
@@ -32,9 +45,8 @@ function handleClick(evt){
     buttonElThree.style.display = 'inline'
   } else {
     //hide buttons if there are no more options
-    buttonElOne.style.display = 'none';
-    buttonElTwo.style.display = 'none';
-    buttonElThree.style.display = 'none';
+    buttonElOne.style.display = 'none'
+    buttonElTwo.style.display = 'none'
+    buttonElThree.style.display = 'none'
   }
-  render();
 }
