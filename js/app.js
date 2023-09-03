@@ -9,16 +9,16 @@ let currentIndex = 0
 /*------------------------ Cached Element References ------------------------*/
 
 const messageEl = document.querySelector(".msg")
-const buttonElOne = document.querySelector(".btn-1")
-const buttonElTwo = document.querySelector(".btn-2")
-const buttonElThree = document.querySelector(".btn-3")
+const optionElOne = document.querySelector(".btn-1")
+const optionElTwo = document.querySelector(".btn-2")
+const optionElThree = document.querySelector(".btn-3")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-buttonElOne.addEventListener('click',handleClick)
-buttonElTwo.addEventListener('click',handleClick)
-buttonElThree.addEventListener('click',handleClick)
+optionElOne.addEventListener('click',handleClick)
+optionElTwo.addEventListener('click',handleClick)
+optionElThree.addEventListener('click',handleClick)
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -26,38 +26,38 @@ init()
 
 function init(){
 currentIndex = 0
-  buttonElOne.textContent =(adventEls[currentIndex].optionOne)
-  buttonElTwo.textContent=(adventEls[currentIndex].optionTwo)
-  buttonElThree.textContent=(adventEls[currentIndex].optionThree)
+optionElOne.textContent =(adventEls[currentIndex].optionOne)
+ooptionElTwo.textContent=(adventEls[currentIndex].optionTwo)
+optionElThree.textContent=(adventEls[currentIndex].optionThree)
   messageEl.textContent = (adventEls[currentIndex].optionText)
-  buttonElOne.id = 1 
-  buttonElTwo.id = 2
-  buttonElThree.id = 3
+  optionElOne.id = 1 
+  optionElTwo.id = 2
+  optionElThree.id = 3
 }
 
 function handleClick(evt){
   currentIndex = evt.target.id 
   const currentElement = adventEls[currentIndex]
   if (currentElement.optionOneResult !== null || currentElement.optionTwoResult !== null || currentElement.optionThreeResult !== null) {
-    buttonElOne.style.display = 'inline'
-    buttonElTwo.style.display = 'inline'
-    buttonElThree.style.display = 'inline'
+    optionElOne.style.display = 'inline'
+    optionElTwo.style.display = 'inline'
+    optionElThree.style.display = 'inline'
   } else {
     //hide buttons if there are no more options
-    buttonElOne.style.display = 'none'
-    buttonElTwo.style.display = 'none'
-    buttonElThree.style.display = 'none'
+    optionElOne.style.display = 'none'
+    optionElTwo.style.display = 'none'
+    optionElThree.style.display = 'none'
   }
   render()
 }
 
 function render(){
-  buttonElOne.textContent = adventEls[currentIndex].optionOne //updates text content
-  buttonElOne.id = adventEls[currentIndex].optionOneResult || 'null' // checks if falsy(if need an option)
-  buttonElTwo.textContent = adventEls[currentIndex].optionTwo
-  buttonElTwo.id = adventEls[currentIndex].optionTwoResult || 'null'
-  buttonElThree.textContent = adventEls[currentIndex].optionThree
-  buttonElThree.id = adventEls[currentIndex].optionThreeResult || 'null'
+  optionElOne.textContent = adventEls[currentIndex].optionOne //updates text content
+  optionElOne.id = adventEls[currentIndex].optionOneResult || 'null' // checks if falsy(if need an option)
+  optionElTwo.textContent = adventEls[currentIndex].optionTwo
+  optionElTwo.id = adventEls[currentIndex].optionTwoResult || 'null'
+  optionElThree.textContent = adventEls[currentIndex].optionThree
+  optionElThree.id = adventEls[currentIndex].optionThreeResult || 'null'
   messageEl.textContent = adventEls[currentIndex].optionText
 }
 console.log(init)
