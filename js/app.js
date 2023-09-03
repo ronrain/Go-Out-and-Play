@@ -49,4 +49,15 @@ function handleClick(evt){
     buttonElTwo.style.display = 'none'
     buttonElThree.style.display = 'none'
   }
+  render()
+}
+
+function render(){
+  buttonElOne.textContent = adventEls[currentIndex].optionOne //updates text content
+  buttonElOne.id = adventEls[currentIndex].optionOneResult || 'null' // checks if falsy(if need an option)
+  buttonElTwo.textContent = adventEls[currentIndex].optionTwo
+  buttonElTwo.id = adventEls[currentIndex].optionTwoResult || 'null'
+  buttonElThree.textContent = adventEls[currentIndex].optionThree
+  buttonElThree.id = adventEls[currentIndex].optionThreeResult || 'null'
+  messageEl.textContent = adventEls[currentIndex].optionText
 }
