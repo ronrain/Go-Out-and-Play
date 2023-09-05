@@ -1,0 +1,29 @@
+body {
+  background-image: url(https://m.media-amazon.com/images/I/61JElOdxwvL._AC_UF1000,1000_QL80_.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Bebas Neue',  sans-serif;
+  font-size: 27px;
+  color: gold;
+}
+
+.msg {
+  font-family: 'Bebas Neue',  sans-serif;
+  font-size: xx-large;
+  color: aliceblue;
+}
+
+#btn {
+  font-family: 'Exo 2', sans-serif;
+  font-size: xx-large;
+}
