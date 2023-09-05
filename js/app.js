@@ -24,6 +24,8 @@ optionElThree.addEventListener('click',handleClick)
 
 init()
 render()
+hideButton()
+handleClick()
 
 function init(){
 currentIndex = 0
@@ -37,27 +39,34 @@ optionElThree.textContent=(adventEls[currentIndex].optionThree)
 }
 
 function handleClick(evt){
-  currentIndex = evt.target.id 
+  currentIndex = parseInt(evt.target.id) 
   const currentElement = adventEls[currentIndex]
-  if (currentElement.optionOneResult !== null || currentElement.optionTwoResult !== null || currentElement.optionThreeResult !== null) {
-    optionElOne.style.display = 'inline'
-    optionElTwo.style.display = 'inline'
-    optionElThree.style.display = 'inline'
+  if (!currentElement.optionOne){
+    optionElOne.style.display = "none"
   } else {
-    //hide buttons if there are no more options
-    optionElOne.style.display = 'none'
-    optionElTwo.style.display = 'none'
-    optionElThree.style.display = 'none'
-  }
+  optionElOne.style.display = "inline"
+}
+
+if (!currentElement.optionTwo){
+  optionElTwo.style.display = "none"
+} else {
+optionElTwo.style.display = "inline"
+}
+
+if (!currentElement.optionThree){
+optionElThree.style.display = "none"
+} else {
+optionElThree.style.display = "inline"
+}
   render()
 }
 
 function render(){
   optionElOne.textContent = adventEls[currentIndex].optionOne //updates text content
-  optionElOne.id = adventEls[currentIndex].optionOneResult || 'null' // checks if falsy(if need an option)
+  optionElOne.id = adventEls[currentIndex].optionOneResult || 'none' // checks if falsy(if need an option)
   optionElTwo.textContent = adventEls[currentIndex].optionTwo
-  optionElTwo.id = adventEls[currentIndex].optionTwoResult || 'null'
+  optionElTwo.id = adventEls[currentIndex].optionTwoResult || 'none'
   optionElThree.textContent = adventEls[currentIndex].optionThree
-  optionElThree.id = adventEls[currentIndex].optionThreeResult || 'null'
+  optionElThree.id = adventEls[currentIndex].optionThreeResult || 'none'
   messageEl.textContent = adventEls[currentIndex].optionText
 }
