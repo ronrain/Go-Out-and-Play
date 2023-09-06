@@ -1,6 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 
 import { adventEls } from "./adventure.js"
+import * as audioEl from "./audio.js" 
 
 /*-------------------------------- Variables --------------------------------*/
 
@@ -13,6 +14,7 @@ const optionElOne = document.querySelector(".btn-1")
 const optionElTwo = document.querySelector(".btn-2")
 const optionElThree = document.querySelector(".btn-3")
 const adventImage = document.getElementById("adventImage")
+const audioEl = document.getElementById("audio")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -71,4 +73,6 @@ function render(){
   messageEl.textContent = adventEls[currentIndex].optionText
 
   adventImage.src = adventEls[currentIndex].imageEl
+
+  audioEl.src = adventEls[currentIndex].audioAd
 }

@@ -9,6 +9,7 @@ const adventEls = [
   optionTwoResult: 2,
   optionThreeResult: 1,
   imageEl: "https://img.freepik.com/premium-photo/back-view-excitement-man-with-gesturing-hands-up-how-watching-ice-hockey-television-home-rear-view-male-watching-sport-tv-excited-fan-is-rooting-his-favorite-team_431724-1795.jpg",
+  audioAd: "Wind (2).mp3"
   },
 
 
@@ -20,7 +21,8 @@ const adventEls = [
     optionOneResult: "",
     optionTwoResult: 2,
     optionThreeResult: "",
-    imageEl: "https://popculturehasaids.files.wordpress.com/2011/08/fans_boo.jpg"
+    imageEl: "https://popculturehasaids.files.wordpress.com/2011/08/fans_boo.jpg",
+    audioAd: "Boo.mp3"
     },
   
   {id: 2,
@@ -123,7 +125,7 @@ const adventEls = [
       },
 
   {id: 11,
-    optionText: "The other teams enforcer notices you chirping at their star player. Because he does'nt tolerate this behavior towards his players, he initiates a fight and drops his gloves! In a panic you do so as well. You hold your own for a little but the eventual uppercut knocks you out and you exit the game!",
+    optionText: "The other teams enforcer notices you chirping at their star player. Because he doesn't tolerate this behavior towards his players, he initiates a fight and drops his gloves! In a panic you do so as well. You hold your own for a little but the eventual uppercut knocks you out and you exit the game!",
     optionOne: "",
     optionTwo: "I have to pick my fights better!",
     optionThree: "",
@@ -229,7 +231,8 @@ const adventEls = [
     optionOneResult: "",
     optionTwoResult: 2,
     optionThreeResult: "",
-    imageEl: "https://media.giphy.com/media/XF22BxEpfKEy6ZvGl4/giphy.gif"
+    imageEl: "https://media.giphy.com/media/XF22BxEpfKEy6ZvGl4/giphy.gif",
+    audioAd: "Goal Horn.mp3"
       },
 
   {id: 21,
