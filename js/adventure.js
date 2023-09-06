@@ -1,14 +1,14 @@
 const adventEls = [
 
   {id: 0,
-  optionText: "You're watching your favorite team, The Strangers, play against a tough team, The Boilers. The Strangers haven't been playing great the past few days and you're sick and tired of their lackluster performance. Throughout the whole game, you begin to scream at your TV 'SHOOT THE PUCK!!', 'PASS THE PUCK', 'HIT HIM!!' until suddenly, the wind picks up in your house, the TV voulme goes on full blast and you get sucked into the TV! You're playing as your favorite player, Artemi Breadman, and are skating to the faceoff circle...",
+  optionText: "You're watching your favorite team, The Strangers, play against a tough team, The Boilers. Lately, The Strangers haven't been performing well, and your fed up with their lackluster play. As you shout commands like 'SHOOT THE PUCK!!', 'PASS THE PUCK', 'HIT HIM!!' at your TV, the wind in your house picks up, the TV volume maxes out, and you find yourself sucked into the TV! Now, you're in the shoes of your favorite player, Artemi Breadman, skating to the faceoff circle...",
   optionOne: "Freak out and get off the ice",
   optionTwo: "Show the world you can win the game",
-  optionThree: "Accept your fait but be nervous about your performance",
+  optionThree: "Accept your fate but be nervous about your performance",
   optionOneResult: 1,
   optionTwoResult: 2,
-  optionThreeResult: "",
-  imageEl: https://www.brandonsun.com/wp-content/uploads/sites/3/2023/02/1173189_web1_BWK-Bedard-1.jpg,
+  optionThreeResult: 1,
+  imageEl: "www.brandonsun.com/wp-content/uploads/sites/3/2023/02/1173189_web1_BWK-Bedard-1.jpg",
   },
 
 
@@ -213,7 +213,7 @@ const adventEls = [
     optionThreeResult: "",
       },
 
-  {id: 18,
+  {id: 21,
     optionText: "You call for the puck and Pika passes it to you. You scan the ice and decide to...",
     optionOne: "You pass to Atom Foxy at the ble line for a shot",
     optionTwo: "Go for the wrap around goal",
@@ -222,6 +222,15 @@ const adventEls = [
     optionTwoResult: 22,
     optionThreeResult: "",
       },
+  {id: 21,
+    optionText: "An aggressive play but it pays off!You score the goal as the puck slowly goes passed the line without the goalie noticing! YOU WON THE GAME!!",
+    optionOne: "",
+    optionTwo: "I can do that again",
+    optionThree: "",
+    optionOneResult: "",
+    optionTwoResult: 2,
+    optionThreeResult: "",
+      },   
   ]
 
 
