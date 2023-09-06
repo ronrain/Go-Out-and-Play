@@ -14,13 +14,13 @@ body {
   text-align: center;
   font-family: 'Bebas Neue',  sans-serif;
   font-size: 27px;
-  color: gold;
+  color: #845EC2;
 }
 
 .msg {
   font-family: 'Bebas Neue',  sans-serif;
   font-size: xx-large;
-  color: aliceblue;
+  color: #845EC2;
 }
 
 .btn-1 {
@@ -31,7 +31,7 @@ body {
   text-align: center;
   padding: 15px 30px;
   border: 3px solid #000;
-  background: linear-gradient(to right, red, blue);
+  background: linear-gradient(to right, #296073, #3596B5);
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 8px;
@@ -46,7 +46,7 @@ body {
   text-align: center;
   padding: 15px 30px;
   border: 3px solid #000;
-  background: linear-gradient(to right, red, blue);
+  background: #3596B5;
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 8px;
@@ -61,9 +61,10 @@ body {
   text-align: center;
   padding: 15px 30px;
   border: 3px solid #000;
-  background: linear-gradient(to right, red, blue);
+  background: linear-gradient(to left, #296073, #3596B5);
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 8px;
   align-items: center;
+  margin-top: 15px;
 }
