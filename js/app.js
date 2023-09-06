@@ -12,7 +12,7 @@ const messageEl = document.querySelector(".msg")
 const optionElOne = document.querySelector(".btn-1")
 const optionElTwo = document.querySelector(".btn-2")
 const optionElThree = document.querySelector(".btn-3")
-const adventStory = document.getElementById("adventImage")
+const adventImage = document.getElementById("adventImage")
 
 
 /*----------------------------- Event Listeners -----------------------------*/

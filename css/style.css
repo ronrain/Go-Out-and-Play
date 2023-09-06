@@ -15,12 +15,16 @@ body {
   font-family: 'Bebas Neue',  sans-serif;
   font-size: 27px;
   color: #00DFC2;
+  margin-top: 115px;
 }
 
 .msg {
   font-family: 'Bebas Neue',  sans-serif;
   font-size: xx-large;
   color: #F6D605;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .btn-1 {
@@ -67,4 +71,11 @@ body {
   border-radius: 8px;
   align-items: center;
   margin-top: 15px;
+}
+
+#adventImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
 }
