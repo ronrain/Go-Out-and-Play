@@ -1,7 +1,7 @@
 const adventEls = [
 
   {id: 0,
-    optionText: "You're watching your favorite team, The Strangers, play against a tough team, The Boilers. Lately, The Strangers haven't been performing well, and your fed up with their lackluster play. As you shout commands like 'SHOOT THE PUCK!!', 'PASS THE PUCK', 'HIT HIM!!' at your TV, the wind in your house picks up, the TV volume maxes out, and you find yourself sucked into the TV! Now, you're in the shoes of your favorite player, Artemi Breadman, skating to the faceoff circle...",
+    optionText: "You're watching your favorite team, The Strangers, play against a tough team, The Boilers. Lately, The Strangers haven't been performing well, and you're fed up with their lackluster play. As you shout commands like 'SHOOT THE PUCK!!', 'PASS THE PUCK', 'HIT HIM!!' at your TV, the wind in your house picks up, the TV volume maxes out, and you find yourself sucked into the TV! Now, you're in the shoes of your favorite player, Artemi Breadman, skating to the faceoff circle...",
     optionOne: "Freak out and get off the ice",
     optionTwo: "Show the world you can win the game",
     optionThree: "Accept your fate but be nervous about your performance",
@@ -26,7 +26,7 @@ const adventEls = [
   },
   
   {id: 2,
-    optionText: "You're a winger on the defensive zone faceoff, your teammate, Pika Zibangerman, wins the faceoff and you end up with the puck, what do you do?",
+    optionText: "You're a winger on the defensive zone faceoff. Your teammate, Pika Zibangerman, wins the faceoff and you end up with the puck. What do you do?",
     optionOne: "Skate towards the offensive zone",
     optionTwo: "Hit the puck as hard as you can into the offensive zone",
     optionThree: "Pass the puck to your goalie",
@@ -37,7 +37,7 @@ const adventEls = [
   },
   
   {id: 3,
-    optionText: "You carried the puck out of your defensive zone, what should you do now?",
+    optionText: "You've carried the puck out of your defensive zone. What should you do now?",
     optionOne: "Dump the puck in your offensive zone",
     optionTwo: "Drive to the net",
     optionThree: "Pass the puck to your teammate",
@@ -48,7 +48,7 @@ const adventEls = [
   },
     
   {id: 4,
-    optionText: "Oh no! You iced the puck! Now you have to start over in your zone",
+    optionText: "Oh no! You iced the puck! Now you have to start over in your zone!",
     optionOne: "",
     optionTwo: "Oops! Won't do that again!",
     optionThree: "",
@@ -59,7 +59,7 @@ const adventEls = [
   },
   
   {id: 5,
-    optionText: "Oh no! youre goalie didn't expect a pass from you! Thankfully your goalie was able to recover the puck for a faceoff",
+    optionText: "Oh no! Your goalie didn't expect a pass from you! Thankfully, your goalie was able to recover the puck for a faceoff.",
     optionOne: "",
     optionTwo: "I won't do that again!",
     optionThree: "",
@@ -70,10 +70,10 @@ const adventEls = [
   }, 
 
   {id: 6,
-    optionText: "After dumping the puck in, Pika Zibangerman and Leo Drainstyle start to battle at the boards to get possesion, now you should...",
+    optionText: "After dumping the puck in, Pika Zibangerman and Leo Drainstyle start to battle at the boards to get possession. Now, you should...",
     optionOne: "Go help your teamate",
     optionTwo: "Wait in front of the net for an easy goal",
-    optionThree: "Start chirping at the other teams player",
+    optionThree: "Start chirping at the other team's player",
     optionOneResult: 9,
     optionTwoResult: 10,
     optionThreeResult: 11,
@@ -81,9 +81,9 @@ const adventEls = [
   }, 
 
   {id: 7,
-    optionText: "While driving to the net, the other teams defenisve player, Pattias Elkholm levels you to the ground. His shoulder cracks your sternum and while falling you hit your head hard on the ice and get a concussion. You get stretchered off the ice. Maybe try again?",
+    optionText: "While driving to the net, the other team's defensive player, Pattias Elkholm, levels you to the ground. His shoulder cracks your sternum, and while falling, you hit your head hard on the ice, getting a concussion. You get stretchered off the ice. Maybe try again?",
     optionOne: "",
-    optionTwo: "I'll keep my head up this time!",
+    optionTwo: "I'll keep my head up next time!",
     optionThree: "",
     optionOneResult: "",
     optionTwoResult: 2,
@@ -92,7 +92,7 @@ const adventEls = [
   }, 
 
   {id: 8,
-    optionText: "Your pass gets intercepted by Konnor MacDave! The other team develops an odd man rush and gets a beautiful goal to win the game! Play again?",
+    optionText: "Your pass gets intercepted by Konnor MacDave! The other team develops an odd-man rush and scores a beautiful goal to win the game! Want to play again?",
     optionOne: "",
     optionTwo: "I'll make a better pass next time!",      
     optionThree: "",
@@ -114,8 +114,8 @@ const adventEls = [
   },
   
   {id: 10,
-    optionText: "You get the pass from Pika Zibangerman and take a beautiful one-timer shot to the open net but the other teams goalie makes a beautiful glove save. Now you're taking an offensive zone faceoff. You make a play with Pika Zibangerman, what do you decide?",
-    optionOne: "Rush the faceoff to get possesion and start the play behind the net",
+    optionText: "You get the pass from Pika Zibangerman and take a beautiful one-timer shot to the open net but the other team's goalie makes a beautiful glove save. Now you're taking an offensive zone faceoff. You make a play with Pika Zibangerman, what do you decide?",
+    optionOne: "Rush the faceoff to get possession and start the play behind the net",
     optionTwo: "Try to win the faceoff behind so that you can take a shot at the net",
     optionThree: "Try to win the faceoff behind so that your defenseman can start the play from the blueline",
     optionOneResult: 15,
@@ -125,7 +125,7 @@ const adventEls = [
   },
 
   {id: 11,
-    optionText: "The other teams enforcer notices you chirping at their star player. Because he doesn't tolerate this behavior towards his players, he initiates a fight and drops his gloves! In a panic you do so as well. You hold your own for a little but the eventual uppercut knocks you out and you exit the game!",
+    optionText: "The other team's enforcer notices you chirping at their star player. Because he doesn't tolerate this behavior towards his teammates, he initiates a fight and drops his gloves. In a panic, you do so as well. You hold your own for a little while, but an eventual uppercut knocks you out, and you exit the game!",
     optionOne: "",
     optionTwo: "I have to pick my fights better!",
     optionThree: "",
@@ -136,7 +136,7 @@ const adventEls = [
   },
 
   {id: 12,
-    optionText: "As you're skating behind the net, you get leveled by Pattias Elkholm but Pika Zibangerman was able to get the loose puck! You hurry to your feet and...",
+    optionText: "As you're skating behind the net, you get leveled by Pattias Elkholm, but Pika Zibangerman is able to retrieve the loose puck! You hurry to your feet and...",
     optionOne: "Wait for the pass back behind the net",
     optionTwo: "",
     optionThree: "Skate to the front of the net for a shot",
@@ -147,7 +147,7 @@ const adventEls = [
   },
 
   {id: 13,
-    optionText: "You pass the puck to Atom Foxy. He takes the shot and SCORES! STRANGER WIN! STRANGERS WIN!",
+    optionText: "You pass the puck to Atom Foxy. He takes the shot and SCORES! STRANGERS WIN! STRANGERS WIN!",
     optionOne: "",
     optionTwo: "I can win again!",
     optionThree: "",
@@ -158,7 +158,7 @@ const adventEls = [
   },
   
   {id: 14,
-    optionText: "You pass to Maapo Mammo for the shot but the goalie makes a lucky save. The puck rebounds out and Pika Zibangerman gets the rebound. Now you...",
+    optionText: "You pass to Maapo Mammo for the shot, but the goalie makes a lucky save. The puck rebounds out, and Pika Zibangerman gets the rebound. Now you...",
     optionOne: "Skate behind the net for the pass",
     optionTwo: "",
     optionThree: "Skate to the front of the net for the shot",
@@ -170,9 +170,9 @@ const adventEls = [
       
   {id: 15,
     optionText: "Pika Zibangerman ties the faceoff and gives you enough time to handle the puck and skate behind the net. You scan the ice and you..",
-    optionOne: "pass the puck up to Atom Foxy at the blue line for him to shoot",
-    optionTwo: "crash the net",
-    optionThree: "pass to Maapo Mammo for the shot",
+    optionOne: "Pass the puck up to Atom Foxy at the blue line for him to shoot",
+    optionTwo: "Crash the net",
+    optionThree: "Pass to Maapo Mammo for the shot",
     optionOneResult: 13,
     optionTwoResult: 21,
     optionThreeResult: 20,
@@ -180,7 +180,7 @@ const adventEls = [
   },
 
   {id: 16,
-    optionText: "Pika Zibangerman wins the faceoffs clean to you. You take the shot and SCORE!!! YOU WON THE GAME!!",
+    optionText: "Pika Zibangerman wins the faceoff clean to you. You take the shot and SCORE!!! YOU WON THE GAME!!",
     optionOne: "",
     optionTwo: "I can win again!",
     optionThree: "",
@@ -191,8 +191,8 @@ const adventEls = [
   },
 
   {id: 17,
-    optionText: "Pika Zibangerman wins a contested faceoff with your help. You pass the puck to Atom Foxy who takes the shot but the goalie makes a beautiful save! Pika Zibangerman was able to get thee rebound and is looking to make a play...",
-    optionOne: "You wave your stick over to Maapo Maamo to take the shot",
+    optionText: "Pika Zibangerman wins a contested faceoff with your help. You pass the puck to Atom Foxy, who takes the shot, but the goalie makes a beautiful save! Pika Zibangerman is able to get the rebound and is looking to make a play...",
+    optionOne: "You wave your stick over to Maapo Mammo to take the shot",
     optionTwo: "",
     optionThree: "You call for the puck to take the shot",
     optionOneResult: 20,
@@ -202,8 +202,8 @@ const adventEls = [
   },
 
   {id: 18,
-    optionText: "You call for the puck and Pika passes it to you. You scan the ice and decide to...",
-    optionOne: "You pass to Atom Foxy at the blue line for a shot",
+    optionText: "You call for the puck, and Pika passes it to you. You scan the ice and decide to...",
+    optionOne: "Pass to Atom Foxy at the blue line for a shot",
     optionTwo: "",
     optionThree: "Go for the wrap around goal",
     optionOneResult: 8,
@@ -236,7 +236,7 @@ const adventEls = [
   },
 
   {id: 21,
-    optionText: "An aggressive play and it pays off! You score the goal as the puck slowly goes passed the line without the goalie noticing! YOU WON THE GAME!!",
+    optionText: "An aggressive play and it pays off! You score the goal as the puck slowly goes past the line without the goalie noticing! YOU WON THE GAME!!",
     optionOne: "",
     optionTwo: "I can do that again",
     optionThree: "",
