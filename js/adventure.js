@@ -224,7 +224,7 @@ const adventEls = [
   },
 
   {id: 20,
-    optionText: "Maapo Mammo takes the shot and SCORES! Great offensive play all around! YOU WON THE GAME",
+    optionText: "Maapo Mammo takes the shot and SCORES! Great offensive play all around! YOU WON THE GAME!!",
     optionOne: "",
     optionTwo: "I can win again!",
     optionThree: "",
