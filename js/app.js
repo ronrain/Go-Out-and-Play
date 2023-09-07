@@ -64,6 +64,7 @@ function handleClick(evt){
 function render(){
   optionElOne.textContent = adventEls[currentIndex].optionOne //updates text content
   optionElOne.id = adventEls[currentIndex].optionOneResult || 'none' // checks if falsy(if need an option)
+  
   optionElTwo.textContent = adventEls[currentIndex].optionTwo
   optionElTwo.id = adventEls[currentIndex].optionTwoResult || 'none'
   
@@ -88,30 +89,30 @@ function audio(){
     audioAd.audioBooo()
   }
   if (adventEls[currentIndex].audioAd === "chirp"){
-    audioAd.audioChirp
+    audioAd.audioChirp()
   }
   if (adventEls[currentIndex].audioAd === "gameplay"){
-    audioAd.audioGameplay
+    audioAd.audioGameplay()
   }
   if (adventEls[currentIndex].audioAd === "hit"){
-    audioAd.audioHit
+    audioAd.audioHit()
   }
   if (adventEls[currentIndex].audioAd === "horn"){
-    audioAd.audioHit
+    audioAd.audioHit()
   }
   if (adventEls[currentIndex].audioAd === "interception"){
-    audioAd.audioInterception
+    audioAd.audioInterception()
   }
   if (adventEls[currentIndex].audioAd === "shotsave"){
-    audioAd.audioShotsave
+    audioAd.audioShotsave()
   }
   if (adventEls[currentIndex].audioAd === "wind"){
-    audioAd.audioWind
+    audioAd.audioWind()
   }
   if (adventEls[currentIndex].audioAd === "wrapgoal"){
-    audioAd.audioWrapgoal
+    audioAd.audioWrapgoal()
   }
   if (adventEls[currentIndex].audioAd === "zbss"){
-    audioAd.audioZbss
+    audioAd.audioZbss()
   }
 }

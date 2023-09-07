@@ -2,7 +2,7 @@
 
 ## Objective
 
-To play through and win a hockey game by choosing the correct play option. Each play option has a different route you can take to either losing or winning the game. Sports fans yell at the players what they would do, but would your choice work?
+Sports fans watch their favorite teams and yell at the players what they would do if they were playing. But, is what you think the right option? Now it's your turn to go out and play the game and prove that you will score and win the game. You must choose the correct option to continue onto the next situation and score a goal. But becareful! To play through and win a hockey game by choosing the correct play option. Each play option has a different route you can take to either losing or winning the game. 
 
 ## Getting Started
 
