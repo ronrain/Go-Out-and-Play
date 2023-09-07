@@ -2,8 +2,10 @@ body {
   background-image: url(https://t3.ftcdn.net/jpg/02/91/00/30/360_F_291003001_h4CQsWT5B6Eo6cb1e2Phaz3nLarITHU0.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
+  overflow: hidden;
+  height: 100vh;
 }
 
 .container {
@@ -21,10 +23,11 @@ body {
 .msg {
   font-family: 'Bebas Neue',  sans-serif;
   font-size: 45px;
-  color: #FF2E00;
+  color: red;
   margin-bottom: 50px;
   margin-left: 100px;
   margin-right: 100px;
+  background-color: rgba(255, 255, 255, 0.629);
 }
 
 .btn-1 {

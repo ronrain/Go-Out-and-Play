@@ -1,23 +1,29 @@
-let biggerHit = new Audio('../audio/Bigger Hit.mp3')
-let boo = new Audio('../audio/Boo.mp3')
-let chirp = new Audio('../audio/Chirp.mp3')
-let gameplay = new Audio('../audio/Gameplay sound.mp3')
-let goalHorn = new Audio('../audio/Goal Horn.mp3')
-let hit = new Audio('../audio/Hit.mp3')
-let interception = new Audio('../interception.mp3')
-let shotSave = new Audio('../audio/Shot Save.mp3')
-let wind = new Audio('../audio/Wind (2).mp3')
-let wrapGoal = new Audio('../audio/Wrap goal.mp3')
-let zBSS = new Audio('../audio/Zip to bread shot and save.mp3')
+let bhit = new Audio('../audio/biggerhit.mp3')
+let boo = new Audio('../audio/boo.mp3')
+let booo = new Audio('../audio/booo.mp3')
+let chirp = new Audio('../audio/chirp.mp3')
+let gameplay = new Audio('../audio/gameplay.mp3')
+let horn = new Audio('../audio/horn.mp3')
+let hit = new Audio('../audio/hit.mp3')
+let interception = new Audio('../audio/interception.mp3')
+let shotsave = new Audio('../audio/shotsave.mp3')
+let wind = new Audio('../audio/wind.mp3')
+let wrapgoal = new Audio('../audio/wrapgoal.mp3')
+let zbss = new Audio('../audio/zibbreadshotsave.mp3')
 
-function audioBiggerHit() {
-  biggerHit.volume = 0.25
-  biggerHit.play()
+function audioBhit() {
+  bhit.volume = 0.25
+  bhit.play()
 }
 
 function audioBoo() {
   boo.volume = 0.25
   boo.play()
+}
+
+function audioBooo() {
+  booo.volume = 0.25
+  booo.play()
 }
 
 function audioChirp() {
@@ -30,9 +36,9 @@ function audioGameplay() {
   gameplay.play()
 }
 
-function audioGoalHorn() {
-  goalHorn.volume = 0.25
-  goalHorn.play()
+function audioHorn() {
+  horn.volume = 0.25
+  horn.play()
 }
 
 function audioHit() {
@@ -45,9 +51,9 @@ function audioInterception() {
   interception.play()
 }
 
-function audioShotSave() {
-  shotSave.volume = 0.25
-  shotSave.play()
+function audioShotsave() {
+  shotsave.volume = 0.25
+  shotsave.play()
 }
 
 function audioWind() {
@@ -55,28 +61,28 @@ function audioWind() {
   wind.play()
 }
 
-function audioWrapGoal() {
-  wrapGoal.volume = 0.25
-  wrapGoal.play()
+function audioWrapgoal() {
+  wrapgoal.volume = 0.25
+  wrapgoal.play()
 }
 
-function audioZBSS() {
-  zBSS.volume = 0.25
-  zBSS.play()
+function audioZbss() {
+  zbss.volume = 0.25
+  zbss.play()
 }
 
-console.log(audioZBSS)
 
 export {
-  audioBiggerHit,
+  audioBhit,
   audioBoo,
+  audioBooo,
   audioChirp,
   audioGameplay,
-  audioGoalHorn,
+  audioHorn,
   audioHit,
   audioInterception,
-  audioShotSave,
+  audioShotsave,
   audioWind,
-  audioWrapGoal,
-  audioZBSS
+  audioWrapgoal,
+  audioZbss
 }

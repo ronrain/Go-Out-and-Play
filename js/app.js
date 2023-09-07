@@ -1,7 +1,8 @@
 /*-------------------------------- Constants --------------------------------*/
 
 import { adventEls } from "./adventure.js"
-// import * as audioAd from "./audio.js" 
+import { audioBoo } from "./audio.js"
+//import * as audioAd from "./audio.js" 
 
 /*-------------------------------- Variables --------------------------------*/
 
@@ -28,6 +29,7 @@ optionElThree.addEventListener('click',handleClick)
 init()
 render()
 handleClick()
+audio()
 
 function init(){
   currentIndex = 0
@@ -40,8 +42,8 @@ function init(){
       optionElThree.id = 3
 }
 
-function handleClick(evt){
-  currentIndex = parseInt(evt.target.id) 
+function handleClick(id){
+  currentIndex = adventEls.find(id) 
     const currentElement = adventEls[currentIndex]  
       if (!currentElement.optionOne){
       optionElOne.style.display = "none"
@@ -58,13 +60,11 @@ function handleClick(evt){
       } else {
       optionElThree.style.display = "inline"
       }
-    render()
 }
 
 function render(){
   optionElOne.textContent = adventEls[currentIndex].optionOne //updates text content
   optionElOne.id = adventEls[currentIndex].optionOneResult || 'none' // checks if falsy(if need an option)
-  
   optionElTwo.textContent = adventEls[currentIndex].optionTwo
   optionElTwo.id = adventEls[currentIndex].optionTwoResult || 'none'
   
@@ -76,4 +76,32 @@ function render(){
   adventImage.src = adventEls[currentIndex].imageEl
 
   audioAdvent.src = adventEls[currentIndex].audioAd
+}
+
+function audio(){
+  if (adventEls[currentIndex].audioAd === "biggerhit"){
+  audioBiggerhit()}
+  if (adventEls[currentIndex].audioAd === "boo"){
+  audioBoo()}
+//   if (adventEls[currentIndex].audioAd === "booo")
+//   audioBooo()
+//   if (adventEls[currentIndex].audioAd === "chirp")
+//   audioChirp()
+//   if (adventEls[currentIndex].audioAd === "gameplay")
+//   audioGameplay()
+//   if (adventEls[currentIndex].audioAd === "hit")
+//   audioHit()
+//   if (adventEls[currentIndex].audioAd === "horn")
+//   audioHorn()
+//   if (adventEls[currentIndex].audioAd === "interception")
+//   audioInterception()
+//   if (adventEls[currentIndex].audioAd === "shotsave")
+//   audioShotsave()
+//   if (adventEls[currentIndex].audioAd === "wind")
+//   return audioWind()
+//   if (adventEls[currentIndex].audioAd === "wrapgoal")
+//   audioWrapgoal()
+//   if (adventEls[currentIndex].audioAd === "zbss")
+//   audioZbss()
+console.log(audioBoo)
 }
