@@ -79,40 +79,28 @@ function render(){
 }
 
 function audio(){
-  if (adventEls[currentIndex].audioAd === "biggerhit"){
-    audioAd.audioBhit()
-  }
   if (adventEls[currentIndex].audioAd === "boo"){
     audioAd.audioBoo()
   }
-  if (adventEls[currentIndex].audioAd === "booo"){
-    audioAd.audioBooo()
+  if (adventEls[currentIndex].audioAd === "gloves"){
+    audioAd.audioGloves()
   }
-  if (adventEls[currentIndex].audioAd === "chirp"){
-    audioAd.audioChirp()
-  }
-  if (adventEls[currentIndex].audioAd === "gameplay"){
-    audioAd.audioGameplay()
+  if (adventEls[currentIndex].audioAd === "goal"){
+    audioAd.audioGoal()
   }
   if (adventEls[currentIndex].audioAd === "hit"){
     audioAd.audioHit()
   }
-  if (adventEls[currentIndex].audioAd === "horn"){
-    audioAd.audioHit()
+  if (adventEls[currentIndex].audioAd === "hurt"){
+    audioAd.audioHurt()
   }
-  if (adventEls[currentIndex].audioAd === "interception"){
-    audioAd.audioInterception()
+  if (adventEls[currentIndex].audioAd === "save"){
+    audioAd.audioSave()
   }
-  if (adventEls[currentIndex].audioAd === "shotsave"){
-    audioAd.audioShotsave()
+  if (adventEls[currentIndex].audioAd === "skates"){
+    audioAd.audioSkates()
   }
-  if (adventEls[currentIndex].audioAd === "wind"){
-    audioAd.audioWind()
-  }
-  if (adventEls[currentIndex].audioAd === "wrapgoal"){
-    audioAd.audioWrapgoal()
-  }
-  if (adventEls[currentIndex].audioAd === "zbss"){
-    audioAd.audioZbss()
+  if (adventEls[currentIndex].audioAd === "whistle"){
+    audioAd.audioWhistle()
   }
 }

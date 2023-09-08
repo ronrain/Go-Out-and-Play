@@ -9,7 +9,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: 1,
     imageEl: "https://img.freepik.com/premium-photo/back-view-excitement-man-with-gesturing-hands-up-how-watching-ice-hockey-television-home-rear-view-male-watching-sport-tv-excited-fan-is-rooting-his-favorite-team_431724-1795.jpg",
-    audioAd: "wind"
+    audioAd: ""
   },
 
   {id: 1,
@@ -21,7 +21,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://popculturehasaids.files.wordpress.com/2011/08/fans_boo.jpg",
-    audioAd: "booo"
+    audioAd: "boo"
   },
   
   {id: 2,
@@ -33,7 +33,7 @@ const adventEls = [
     optionTwoResult: 4,
     optionThreeResult: 5,
     imageEl: "https://media.giphy.com/media/dXu9UXIP5EQKvphTWP/giphy.gif",
-    audioAd: "gameplay"
+    audioAd: "whistle"
   },
   
   {id: 3,
@@ -45,7 +45,7 @@ const adventEls = [
     optionTwoResult: 7,
     optionThreeResult: 8,
     imageEl: "https://media.giphy.com/media/26BnaWZM4lg6OT4Ag/giphy.gif",
-    audioAd: "gameplay"
+    audioAd: "skates"
   },
     
   {id: 4,
@@ -81,7 +81,7 @@ const adventEls = [
     optionTwoResult: 10,
     optionThreeResult: 11,
     imageEl: "https://media.giphy.com/media/ukQsndSuXIP1zqsQdv/giphy.gif",
-    audioAd: "gameplay"
+    audioAd: "skates"
   }, 
 
   {id: 7,
@@ -93,7 +93,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/3ohhwwA9ZoxCEQZVEk/giphy.gif",
-    audioAd: "biggerhit"
+    audioAd: "hit"
   }, 
 
   {id: 8,
@@ -105,7 +105,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/1rK4G0vp2LAdbHFKkD/giphy.gif",
-    audioAd: "interception"
+    audioAd: "boo"
   }, 
 
   {id: 9,
@@ -117,7 +117,7 @@ const adventEls = [
     optionTwoResult: 13,
     optionThreeResult: 14,
     imageEl: "https://www.sportsnet.ca/wp-content/uploads/2023/03/Washington-Capitals-left-wing-Alex-Ovechkin-1040x572.jpg",
-    audioAd: "gameplay"
+    audioAd: "skates"
   },
   
   {id: 10,
@@ -129,7 +129,7 @@ const adventEls = [
     optionTwoResult: 16,
     optionThreeResult: 17, 
     imageEl: "https://media.giphy.com/media/1AfbDwOLLJk5hps1U6/giphy.gif",
-    audioAd: "zibbreadshotsave"
+    audioAd: "save"
   },
 
   {id: 11,
@@ -141,7 +141,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/BKB2KMP7pd2RbfABAp/giphy.gif",
-    audioAd: "chirp"
+    audioAd: "gloves"
   },
 
   {id: 12,
@@ -165,7 +165,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/mRDrjuGkvk1beE9AX8/giphy.gif",
-    audioAd: "horn"
+    audioAd: "goal"
   },
   
   {id: 14,
@@ -177,7 +177,7 @@ const adventEls = [
     optionTwoResult: "",
     optionThreeResult: 19,
     imageEl: "https://media.giphy.com/media/3o6ozGDBOpMj54P2lq/giphy.gif",
-    audioAd: "shotsave"
+    audioAd: "save"
   }, 
       
   {id: 15,
@@ -189,7 +189,7 @@ const adventEls = [
     optionTwoResult: 21,
     optionThreeResult: 20,
     imageEl: "https://media.giphy.com/media/EskuWX8kQYPAiXL3DR/giphy.gif",
-    audioAd: "gameplay"
+    audioAd: "skates"
   },
 
   {id: 16,
@@ -201,7 +201,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/dXi5Q5sOkD96G25dgH/giphy.gif",
-    audioAd: "gameplay"
+    audioAd: "goal"
   },
 
   {id: 17,
@@ -213,7 +213,7 @@ const adventEls = [
     optionTwoResult: "",
     optionThreeResult: 19,
     imageEl: "https://media.giphy.com/media/l0IyhAWHXXrngHjI4/giphy.gif",
-    audioAd: "shotsave"
+    audioAd: "whistles"
   },
 
   {id: 18,
@@ -225,7 +225,7 @@ const adventEls = [
     optionTwoResult: "",
     optionThreeResult: 21,
     imageEl: "https://dims.apnews.com/dims4/default/7e35366/2147483647/strip/true/crop/3000x1999+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2Fc4b8591c986d42f19417f58cf46f6879%2F3000.jpeg",
-    audioAd: "gameplay"
+    audioAd: "skates"
   },
 
   {id: 19,
@@ -237,7 +237,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/fXzvDjzPwksfTHCVoH/giphy.gif",
-    audioAd: "gameplay"
+    audioAd: "goal"
   },
 
   {id: 20,
@@ -249,7 +249,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/XF22BxEpfKEy6ZvGl4/giphy.gif",
-    audioAd: "horn"
+    audioAd: "goal"
   },
 
   {id: 21,
@@ -261,7 +261,7 @@ const adventEls = [
     optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/hk9t99FZREzsYo0eOs/giphy.gif",
-    audioAd: "wrapgoal"
+    audioAd: "goal"
   },   
 ]
 
