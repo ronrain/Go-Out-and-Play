@@ -34,9 +34,6 @@ function init(){
     optionElTwo.textContent=(adventEls[currentIndex].optionTwo)
     optionElThree.textContent=(adventEls[currentIndex].optionThree)
     messageEl.textContent = (adventEls[currentIndex].optionText)
-      optionElOne.id = 1 
-      optionElTwo.id = 2
-      optionElThree.id = 3
 }
 
 function handleClick(evt){
