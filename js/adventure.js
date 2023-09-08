@@ -18,7 +18,7 @@ const adventEls = [
     optionTwo: "Try again",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://popculturehasaids.files.wordpress.com/2011/08/fans_boo.jpg",
     audioAd: "boo"
@@ -54,7 +54,7 @@ const adventEls = [
     optionTwo: "Oops! Won't do that again!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://busyplayinghockey.com/wp-content/uploads/2019/05/Icing_in_hockey.png",
     audioAd: "boo"
@@ -66,7 +66,7 @@ const adventEls = [
     optionTwo: "I won't do that again!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/491AZ4PncD0BWqwJ8f/giphy.gif",
     audioAd: "boo"
@@ -90,7 +90,7 @@ const adventEls = [
     optionTwo: "I'll keep my head up next time!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/3ohhwwA9ZoxCEQZVEk/giphy.gif",
     audioAd: "hit"
@@ -102,7 +102,7 @@ const adventEls = [
     optionTwo: "I'll make a better pass next time!",      
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/1rK4G0vp2LAdbHFKkD/giphy.gif",
     audioAd: "boo"
@@ -138,7 +138,7 @@ const adventEls = [
     optionTwo: "I have to pick my fights better!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/BKB2KMP7pd2RbfABAp/giphy.gif",
     audioAd: "gloves"
@@ -162,7 +162,7 @@ const adventEls = [
     optionTwo: "I can win again!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/mRDrjuGkvk1beE9AX8/giphy.gif",
     audioAd: "goal"
@@ -198,7 +198,7 @@ const adventEls = [
     optionTwo: "I can win again!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/dXi5Q5sOkD96G25dgH/giphy.gif",
     audioAd: "goal"
@@ -234,7 +234,7 @@ const adventEls = [
     optionTwo: "I can win again!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/fXzvDjzPwksfTHCVoH/giphy.gif",
     audioAd: "goal"
@@ -246,7 +246,7 @@ const adventEls = [
     optionTwo: "I can win again!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/XF22BxEpfKEy6ZvGl4/giphy.gif",
     audioAd: "goal"
@@ -255,10 +255,10 @@ const adventEls = [
   {id: 21,
     optionText: "An aggressive play and it pays off! You score the goal as the puck slowly goes past the line without the goalie noticing! YOU WON THE GAME!!",
     optionOne: "",
-    optionTwo: "I can do that again",
+    optionTwo: "I can do that again!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/hk9t99FZREzsYo0eOs/giphy.gif",
     audioAd: "goal"
@@ -270,7 +270,7 @@ const adventEls = [
     optionTwo: "I'll do better this time!",
     optionThree: "",
     optionOneResult: "",
-    optionTwoResult: 0,
+    optionTwoResult: 2,
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/QwZWFpoF2TM8nneyQV/giphy.gif",
     audioAd: "boo"
