@@ -1,10 +1,10 @@
-let boo = new Audio('../audio/boo.mp3')
-let gloves = new Audio('../audio/gloves.mp3')
-let goal = new Audio('../audio/goal.mp3')
-let hit = new Audio('../audio/hit.mp3')
-let hurt = new Audio('../audio/hurt.mp3')
-let save = new Audio('../audio/save.mp3')
-let skates = new Audio('../audio/skates.mp3')
+let boo = new Audio("../audio/boo.mp3")
+let gloves = new Audio("../audio/gloves.mp3")
+let goal = new Audio("../audio/goal.mp3")
+let hit = new Audio("../audio/hit.mp3")
+let hurt = new Audio("../audio/hurt.mp3")
+let save = new Audio("../audio/save.mp3")
+let skates = new Audio("../audio/skates.mp3")
 let whistle = new Audio("../audio/whistle.mp3")
 
 function audioBoo() {

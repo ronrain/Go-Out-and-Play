@@ -4,10 +4,10 @@ const adventEls = [
     optionText: "You're watching your favorite team, The Strangers, play against a tough team, The Boilers. Lately, The Strangers haven't been performing well, and you're fed up with their lackluster play. As you shout commands like 'SHOOT THE PUCK!!', 'PASS THE PUCK', 'HIT HIM!!' at your TV, the wind in your house picks up, the TV volume maxes out, and you find yourself sucked into the TV! Now, you're in the shoes of your favorite player, Artemi Breadman, skating to the faceoff circle...",
     optionOne: "Freak out and get off the ice",
     optionTwo: "Show the world you can win the game",
-    optionThree: "Maybe I'll give it a try",
+    optionThree: "Maybe I'll give it a try, I'm a little nervous so I won't do anything crazy",
     optionOneResult: 1,
     optionTwoResult: 2,
-    optionThreeResult: 1,
+    optionThreeResult: 22,
     imageEl: "https://img.freepik.com/premium-photo/back-view-excitement-man-with-gesturing-hands-up-how-watching-ice-hockey-television-home-rear-view-male-watching-sport-tv-excited-fan-is-rooting-his-favorite-team_431724-1795.jpg",
     audioAd: ""
   },
@@ -262,6 +262,18 @@ const adventEls = [
     optionThreeResult: "",
     imageEl: "https://media.giphy.com/media/hk9t99FZREzsYo0eOs/giphy.gif",
     audioAd: "goal"
+  }, 
+  
+  {id: 22,
+    optionText: "Your nervousness causes hesitation when the puck comes your way. Patthias Elkholm takes advantage and delivers a powerful check. You're out of the game, and your team falls short. You lose! Want to give it another shot?",
+    optionOne: "",
+    optionTwo: "I'll do better this time!",
+    optionThree: "",
+    optionOneResult: "",
+    optionTwoResult: 2,
+    optionThreeResult: "",
+    imageEl: "https://media.giphy.com/media/QwZWFpoF2TM8nneyQV/giphy.gif",
+    audioAd: "boo"
   },   
 ]
 
