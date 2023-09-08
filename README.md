@@ -2,20 +2,21 @@
 
 ## Objective
 
-Sports fans watch their favorite teams and yell at the players what they would do if they were playing. But, is what you think the right option? Now it's your turn to go out and play the game and prove that you will score and win the game. You must choose the correct option to continue onto the next situation and score a goal. But becareful! To play through and win a hockey game by choosing the correct play option. Each play option has a different route you can take to either losing or winning the game. 
+Sports fans watch their favorite teams and yell at the players what they would do if they were playing. But, is your strategy really the best option? Now it's your turn to go out and play the game and prove that you will score and win the game. You must choose the correct option to continue onto the next situation to eventually score a goal. But be careful! If you choose the wrong option, there's a chance you might make a mistake and lose the game for your team. 
 
 ## Getting Started
 
-Read each situation and choose one of the options available to continue playing the game.
+Read each situation and choose one of the options available to continue playing the game. Play until you win or lose, you always have the option to play again!
 
 Start playing [here](https://go-out-and-play.netlify.app)
 
 ## Screenshots
-#### Flow Chart of Game
-![Flow Chart](IMG_4170_2.jpg)
-
+### Start Screen
+#### You will be greeted with your initial situation. Make sure you have the confidence to play!
+![Start](start.jpg)
 ### GamePlay
-
+#### You win the game after you successfully answer all the situations correctly!
+![Goal](goal.jpg)
 ## Technologies Used
 - JavaScript
 - CSS
