@@ -14,7 +14,6 @@ const optionElOne = document.querySelector(".btn-1")
 const optionElTwo = document.querySelector(".btn-2")
 const optionElThree = document.querySelector(".btn-3")
 const adventImage = document.getElementById("adventImage")
-const audioAdvent = document.getElementById("audio")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -30,30 +29,30 @@ render()
 
 function init(){
   currentIndex = 0
-    optionElOne.textContent =(adventEls[currentIndex].optionOne)
-    optionElTwo.textContent=(adventEls[currentIndex].optionTwo)
-    optionElThree.textContent=(adventEls[currentIndex].optionThree)
-    messageEl.textContent = (adventEls[currentIndex].optionText)
+  optionElOne.textContent =(adventEls[currentIndex].optionOne)
+  optionElTwo.textContent=(adventEls[currentIndex].optionTwo)
+  optionElThree.textContent=(adventEls[currentIndex].optionThree)
+  messageEl.textContent = (adventEls[currentIndex].optionText)
 }
 
 function handleClick(evt){
   currentIndex = parseInt(evt.target.id) 
-    const currentElement = adventEls[currentIndex]  
-      if (!currentElement.optionOne){
-      optionElOne.style.display = "none"
-      } else {
-        optionElOne.style.display = "inline"
-      }
-      if (!currentElement.optionTwo){
-      optionElTwo.style.display = "none"
-      } else {
-      optionElTwo.style.display = "inline"
-      }
-      if (!currentElement.optionThree){
-      optionElThree.style.display = "none"
-      } else {
-      optionElThree.style.display = "inline"
-      }
+  const currentElement = adventEls[currentIndex]  
+  if (!currentElement.optionOne){
+  optionElOne.style.display = "none"
+  } else {
+  optionElOne.style.display = "inline"
+  }
+  if (!currentElement.optionTwo){
+  optionElTwo.style.display = "none"
+  } else {
+  optionElTwo.style.display = "inline"
+  }
+  if (!currentElement.optionThree){
+  optionElThree.style.display = "none"
+  } else {
+  optionElThree.style.display = "inline"
+  }
   render()
   audio()
 }
@@ -71,9 +70,8 @@ function render(){
   messageEl.textContent = adventEls[currentIndex].optionText
 
   adventImage.src = adventEls[currentIndex].imageEl
-
-  audioAdvent.src = adventEls[currentIndex].audioAd
 }
+
 
 function audio(){
   if (adventEls[currentIndex].audioAd === "boo"){
@@ -101,3 +99,4 @@ function audio(){
     audioAd.audioWhistle()
   }
 }
+

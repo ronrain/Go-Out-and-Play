@@ -8,15 +8,15 @@ Sports fans watch their favorite teams and yell at the players what they would d
 
 While watching your favorite hockey team, you are shouting at your team to shoot and pass. You feel a gust of wind and before you know it you're playing in the game! You must read each situation and choose one of the options available to continue playing the game. Play until you win or lose, you always have the option to play again!
 
-Start playing [here](https://go-out-and-play.netlify.app)
+### Start playing [HERE](https://go-out-and-play.netlify.app)
 
 ## Screenshots
 ### Start Screen
 #### You will be greeted with your initial situation. Make sure you have the confidence to play!
-![Start](start.jpg)
+![Start](./assets/start.jpg)
 ### GamePlay
 #### You win the game after you successfully answer all the situations correctly!
-![Goal](goal.jpg)
+![Goal](./assets/goal.jpg)
 ## Technologies Used
 - JavaScript
 - CSS
@@ -24,10 +24,9 @@ Start playing [here](https://go-out-and-play.netlify.app)
 - Git
 
 ## Attributions
-- Audio file framework: https://github.com/SEI-Remote/shake-it-off/tree/main
-- gifs: https://giphy.com/search/hockey
-- Online Image converter to JPEG: https://image.online-convert.com/convert-to-jpg
-- Audio file converter to mp3: https://aiseesoft-video-converter-ultimate.en.softonic.com/
+- gifs:[Here](https://giphy.com/search/hockey)
+- Online Image converter to JPEG: [Here](https://image.online-convert.com/convert-to-jpg)
+- Audio file converter to mp3: [Here](https://aiseesoft-video-converter-ultimate.en.softonic.com/)
 
 ## Future Goals
 - [ ] Add a timer for each situation
