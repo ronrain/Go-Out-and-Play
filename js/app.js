@@ -15,12 +15,12 @@ const optionElTwo = document.querySelector(".btn-2")
 const optionElThree = document.querySelector(".btn-3")
 const adventImage = document.getElementById("adventImage")
 
-
 /*----------------------------- Event Listeners -----------------------------*/
 
 optionElOne.addEventListener('click',handleClick)
 optionElTwo.addEventListener('click',handleClick)
 optionElThree.addEventListener('click',handleClick)
+
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -40,18 +40,18 @@ function handleClick(evt){
   const currentElement = adventEls[currentIndex]  
   if (!currentElement.optionOne){
   optionElOne.style.display = "none"
-  } else {
-  optionElOne.style.display = "inline"
-  }
+    } else {
+    optionElOne.style.display = "inline"
+    }
   if (!currentElement.optionTwo){
   optionElTwo.style.display = "none"
-  } else {
-  optionElTwo.style.display = "inline"
-  }
+    } else {
+    optionElTwo.style.display = "inline"
+    }
   if (!currentElement.optionThree){
   optionElThree.style.display = "none"
-  } else {
-  optionElThree.style.display = "inline"
+    } else {
+    optionElThree.style.display = "inline"
   }
   render()
   audio()
@@ -99,4 +99,3 @@ function audio(){
     audioAd.audioWhistle()
   }
 }
-
